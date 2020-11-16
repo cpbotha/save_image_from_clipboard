@@ -23,7 +23,7 @@ import tempfile
 
 def main():
     if len(sys.argv) < 2:
-        print("save_image_from_clipboard output_filename.png")
+        print("USAGE: save_image_from_clipboard output_filename.png")
         return
 
     result = subprocess.run(["xclip", "-selection", "clipboard", "-t", "TARGETS", "-o"], stdout=subprocess.PIPE)
