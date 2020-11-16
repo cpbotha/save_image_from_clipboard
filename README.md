@@ -3,8 +3,9 @@
 Save any image from the X11 clipboard to disk in the format of your choice.
 
 I made this because xclip by itself can only save out in the same format than
-was copied, whereas my Emacs `org-download-screenshot` setup expects to be able
-to write out a PNG from the clipboard.
+was copied, whereas my Emacs
+[`org-download-screenshot`](https://github.com/abo-abo/org-download) setup
+expects to be able to write out a PNG from the clipboard.
 
 Copyright 2020 by Charl P. Botha <info@charlbotha.com>
 
@@ -49,7 +50,8 @@ your path.
 
 ## Use with org-download
 
-In my `init.el` in the org-download `use-package` clause, I have:
+In my `init.el` in the [org-download](https://github.com/abo-abo/org-download)
+`use-package` clause, I have:
 
 ```emacs-lisp
 (setq org-download-screenshot-method "save_image_from_clipboard %s")
