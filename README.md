@@ -46,3 +46,13 @@ which save_image_from_clipboard
 
 Download just the `save_image_from_clipboard.py` script, and put it somewhere in
 your path.
+
+## Use with org-download
+
+In my `init.el` in the org-download `use-package` clause, I have:
+
+```emacs-lisp
+(setq org-download-screenshot-method "save_image_from_clipboard %s")
+```
+
+My workflow is that I use whichever system tool to make a screenshot and copy it to the clipboard, and then in Emacs Orgmode I invoke `M-x org-download-screenshot` to attach the screenshot to the current heading.
