@@ -61,4 +61,11 @@ In my `init.el` in the [org-download](https://github.com/abo-abo/org-download)
 (setq org-download-screenshot-method "save_image_from_clipboard %s")
 ```
 
-My workflow is that I use whichever system tool to make a screenshot and copy it to the clipboard, and then in Emacs Orgmode I invoke `M-x org-download-screenshot` to attach the screenshot to the current heading.
+My workflow is that I use whichever system tool to make a screenshot and copy
+it to the clipboard, and then in Emacs Orgmode I invoke `M-x
+org-download-screenshot` to attach the screenshot to the current heading.
+
+(I just learned that org-download now has an `org-download-clipboard` function,
+but that just temporarily binds `org-download-screenshot-method` to the basic
+`xclip ... -t image/png` command, which will fail if you copied a graphic of a
+different format. The setup documented here is required for multi-format support.)
