@@ -7,6 +7,10 @@ was copied, whereas my Emacs
 [`org-download-screenshot`](https://github.com/abo-abo/org-download) setup
 expects to be able to write out a PNG from the clipboard.
 
+On macOS, I used to use [pngpaste](https://github.com/jcsalterego/pngpaste),
+which is also the default for org-download's `M-x org-download-clipboard` on
+that platform.
+
 Copyright 2020 by Charl P. Botha <info@charlbotha.com>
 
 ## Usage
