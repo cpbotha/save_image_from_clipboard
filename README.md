@@ -11,6 +11,10 @@ On macOS, I used to use [pngpaste](https://github.com/jcsalterego/pngpaste),
 which is also the default for org-download's `M-x org-download-clipboard` on
 that platform.
 
+On October 13, 2021, I added optional Wayland clipboard support behind the flag
+`--wayland`. I use this as part of my Emacs setup on XWayland on WSLg to store
+screenshots made on the Windows side.
+
 Copyright 2020 by Charl P. Botha <info@charlbotha.com>
 
 ## Usage
