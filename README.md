@@ -31,6 +31,8 @@ save_image_from_clipboard /another/directory/your_desired_filename.png
 - This script requires Python 3.8 or higher, because I used the walrus operator.
 - Make sure that you have `xclip` and ImageMagick `convert` installed. These are
   available in most modern Linux distributions.
+- If you are planning to use the Wayland clipboard, make sure that
+  `wl-clipboard` is installed.
 
 There are at least two options to install:
 
