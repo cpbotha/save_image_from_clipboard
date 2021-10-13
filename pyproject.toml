@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "save_image_from_clipboard"
-version = "1.0.0"
+version = "1.1.0"
 description = "Save image from X11 clipboard as desired output format."
 authors = ["Charl P. Botha (X1E) <cpbotha@vxlabs.com>"]
 license = "BSD-3-Clause"
