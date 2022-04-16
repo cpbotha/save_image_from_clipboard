@@ -21,6 +21,7 @@ import re
 import subprocess
 import tempfile
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("output_filename", help="Output filename, e.g. bleh.png")
@@ -73,6 +74,7 @@ def main():
 
     else:
         raise RuntimeError("Clipboard has no image/* types available.")
+
 
 if __name__ == "__main__":
     main()
