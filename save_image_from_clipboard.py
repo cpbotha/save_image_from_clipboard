@@ -23,6 +23,7 @@ import tempfile
 
 
 def main():
+    """Handle main logic of simple save image from clipboard script."""
     parser = argparse.ArgumentParser()
     parser.add_argument("output_filename", help="Output filename, e.g. bleh.png")
     # https://docs.python.org/3/howto/argparse.html#introducing-optional-arguments
