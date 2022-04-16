@@ -8,7 +8,7 @@ I made this because xclip by itself can only save out in the same format that
 it was copied, whereas my Emacs org-download-screenshot expects to be able
 to write out a PNG from the clipboard.
 
-Copyright 2020 by Charl P. Botha <info@charlbotha.com>
+Copyright 2020-2022 by Charl P. Botha <info@charlbotha.com>
 
 P.S. This script uses the walrus operator, and so requires Python 3.8 at a
 minimum. Yay walrus!
