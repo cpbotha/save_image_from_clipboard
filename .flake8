@@ -1,0 +1,6 @@
+[flake8]
+docstring-convention=numpy
+max-line-length = 120
+import-order-style = google
+# https://black.readthedocs.io/en/stable/guides/using_black_with_other_tools.html#flake8
+extend-ignore = E203
